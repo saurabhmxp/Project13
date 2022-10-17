@@ -43,7 +43,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FH7-X0-hTn">
                                 <rect key="frame" x="92" y="718.66666666666663" width="284" height="30"/>
                                 <connections>
-                                    <action selector="intensityChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Oha-Nh-psx"/>
+                                    <action selector="changeIntensity:" destination="BYZ-38-t0r" eventType="valueChanged" id="GaK-6o-mSB"/>
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0B-Za-UUb">
@@ -51,7 +51,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Change Filter"/>
                                 <connections>
-                                    <action selector="changeFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P4b-gq-EVT"/>
+                                    <action selector="changeFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mn1-Ok-tlo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqu-x8-kK1">
@@ -59,7 +59,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Save"/>
                                 <connections>
-                                    <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ijS-iM-xOE"/>
+                                    <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z4Q-zW-7KT"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -85,8 +85,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="gQN-nq-yQ1"/>
                     <connections>
-                        <outlet property="imageView" destination="AdO-LQ-DEM" id="Kmb-Tb-c5u"/>
-                        <outlet property="slider" destination="FH7-X0-hTn" id="9f4-az-o6K"/>
+                        <outlet property="imageView" destination="AdO-LQ-DEM" id="BgU-OM-EFd"/>
+                        <outlet property="intensity" destination="FH7-X0-hTn" id="JSu-pn-QHp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
